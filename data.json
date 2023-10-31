@@ -1,0 +1,1627 @@
+[
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add organization",
+      "content_type": 6,
+      "codename": "add_organization"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change organization",
+      "content_type": 6,
+      "codename": "change_organization"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete organization",
+      "content_type": 6,
+      "codename": "delete_organization"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view organization",
+      "content_type": 6,
+      "codename": "view_organization"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add school",
+      "content_type": 7,
+      "codename": "add_school"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change school",
+      "content_type": 7,
+      "codename": "change_school"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete school",
+      "content_type": 7,
+      "codename": "delete_school"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view school",
+      "content_type": 7,
+      "codename": "view_school"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 8,
+      "codename": "add_customuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 8,
+      "codename": "change_customuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 8,
+      "codename": "delete_customuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 8,
+      "codename": "view_customuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add hod",
+      "content_type": 9,
+      "codename": "add_hod"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change hod",
+      "content_type": 9,
+      "codename": "change_hod"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete hod",
+      "content_type": 9,
+      "codename": "delete_hod"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view hod",
+      "content_type": 9,
+      "codename": "view_hod"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add parent",
+      "content_type": 10,
+      "codename": "add_parent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change parent",
+      "content_type": 10,
+      "codename": "change_parent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete parent",
+      "content_type": 10,
+      "codename": "delete_parent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view parent",
+      "content_type": 10,
+      "codename": "view_parent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add school admin",
+      "content_type": 11,
+      "codename": "add_schooladmin"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change school admin",
+      "content_type": 11,
+      "codename": "change_schooladmin"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete school admin",
+      "content_type": 11,
+      "codename": "delete_schooladmin"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view school admin",
+      "content_type": 11,
+      "codename": "view_schooladmin"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add student",
+      "content_type": 12,
+      "codename": "add_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change student",
+      "content_type": 12,
+      "codename": "change_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete student",
+      "content_type": 12,
+      "codename": "delete_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view student",
+      "content_type": 12,
+      "codename": "view_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add staff",
+      "content_type": 13,
+      "codename": "add_staff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change staff",
+      "content_type": 13,
+      "codename": "change_staff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete staff",
+      "content_type": 13,
+      "codename": "delete_staff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view staff",
+      "content_type": 13,
+      "codename": "view_staff"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add student accommodation",
+      "content_type": 14,
+      "codename": "add_studentaccommodation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change student accommodation",
+      "content_type": 14,
+      "codename": "change_studentaccommodation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete student accommodation",
+      "content_type": 14,
+      "codename": "delete_studentaccommodation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view student accommodation",
+      "content_type": 14,
+      "codename": "view_studentaccommodation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add hostel",
+      "content_type": 15,
+      "codename": "add_hostel"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change hostel",
+      "content_type": 15,
+      "codename": "change_hostel"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete hostel",
+      "content_type": 15,
+      "codename": "delete_hostel"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view hostel",
+      "content_type": 15,
+      "codename": "view_hostel"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+      "name": "Can add maintenance request",
+      "content_type": 16,
+      "codename": "add_maintenancerequest"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+      "name": "Can change maintenance request",
+      "content_type": 16,
+      "codename": "change_maintenancerequest"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+      "name": "Can delete maintenance request",
+      "content_type": 16,
+      "codename": "delete_maintenancerequest"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+      "name": "Can view maintenance request",
+      "content_type": 16,
+      "codename": "view_maintenancerequest"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+      "name": "Can add room allocation",
+      "content_type": 17,
+      "codename": "add_roomallocation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+      "name": "Can change room allocation",
+      "content_type": 17,
+      "codename": "change_roomallocation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+      "name": "Can delete room allocation",
+      "content_type": 17,
+      "codename": "delete_roomallocation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+      "name": "Can view room allocation",
+      "content_type": 17,
+      "codename": "view_roomallocation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+      "name": "Can add room",
+      "content_type": 18,
+      "codename": "add_room"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+      "name": "Can change room",
+      "content_type": 18,
+      "codename": "change_room"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+      "name": "Can delete room",
+      "content_type": 18,
+      "codename": "delete_room"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+      "name": "Can view room",
+      "content_type": 18,
+      "codename": "view_room"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+      "name": "Can add bank account",
+      "content_type": 19,
+      "codename": "add_bankaccount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+      "name": "Can change bank account",
+      "content_type": 19,
+      "codename": "change_bankaccount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+      "name": "Can delete bank account",
+      "content_type": 19,
+      "codename": "delete_bankaccount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+      "name": "Can view bank account",
+      "content_type": 19,
+      "codename": "view_bankaccount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+      "name": "Can add fee category",
+      "content_type": 20,
+      "codename": "add_feecategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+      "name": "Can change fee category",
+      "content_type": 20,
+      "codename": "change_feecategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+      "name": "Can delete fee category",
+      "content_type": 20,
+      "codename": "delete_feecategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+      "name": "Can view fee category",
+      "content_type": 20,
+      "codename": "view_feecategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+      "name": "Can add expense",
+      "content_type": 21,
+      "codename": "add_expense"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+      "name": "Can change expense",
+      "content_type": 21,
+      "codename": "change_expense"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+      "name": "Can delete expense",
+      "content_type": 21,
+      "codename": "delete_expense"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+      "name": "Can view expense",
+      "content_type": 21,
+      "codename": "view_expense"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+      "name": "Can add balance",
+      "content_type": 22,
+      "codename": "add_balance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+      "name": "Can change balance",
+      "content_type": 22,
+      "codename": "change_balance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+      "name": "Can delete balance",
+      "content_type": 22,
+      "codename": "delete_balance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+      "name": "Can view balance",
+      "content_type": 22,
+      "codename": "view_balance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 89,
+    "fields": {
+      "name": "Can add late fee",
+      "content_type": 23,
+      "codename": "add_latefee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 90,
+    "fields": {
+      "name": "Can change late fee",
+      "content_type": 23,
+      "codename": "change_latefee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 91,
+    "fields": {
+      "name": "Can delete late fee",
+      "content_type": 23,
+      "codename": "delete_latefee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 92,
+    "fields": {
+      "name": "Can view late fee",
+      "content_type": 23,
+      "codename": "view_latefee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 93,
+    "fields": {
+      "name": "Can add discount",
+      "content_type": 24,
+      "codename": "add_discount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 94,
+    "fields": {
+      "name": "Can change discount",
+      "content_type": 24,
+      "codename": "change_discount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 95,
+    "fields": {
+      "name": "Can delete discount",
+      "content_type": 24,
+      "codename": "delete_discount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 96,
+    "fields": {
+      "name": "Can view discount",
+      "content_type": 24,
+      "codename": "view_discount"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 97,
+    "fields": {
+      "name": "Can add fee structure",
+      "content_type": 25,
+      "codename": "add_feestructure"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 98,
+    "fields": {
+      "name": "Can change fee structure",
+      "content_type": 25,
+      "codename": "change_feestructure"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 99,
+    "fields": {
+      "name": "Can delete fee structure",
+      "content_type": 25,
+      "codename": "delete_feestructure"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 100,
+    "fields": {
+      "name": "Can view fee structure",
+      "content_type": 25,
+      "codename": "view_feestructure"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 101,
+    "fields": {
+      "name": "Can add payment",
+      "content_type": 26,
+      "codename": "add_payment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 102,
+    "fields": {
+      "name": "Can change payment",
+      "content_type": 26,
+      "codename": "change_payment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 103,
+    "fields": {
+      "name": "Can delete payment",
+      "content_type": 26,
+      "codename": "delete_payment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 104,
+    "fields": {
+      "name": "Can view payment",
+      "content_type": 26,
+      "codename": "view_payment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 105,
+    "fields": {
+      "name": "Can add invoice",
+      "content_type": 27,
+      "codename": "add_invoice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 106,
+    "fields": {
+      "name": "Can change invoice",
+      "content_type": 27,
+      "codename": "change_invoice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 107,
+    "fields": {
+      "name": "Can delete invoice",
+      "content_type": 27,
+      "codename": "delete_invoice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 108,
+    "fields": {
+      "name": "Can view invoice",
+      "content_type": 27,
+      "codename": "view_invoice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 109,
+    "fields": {
+      "name": "Can add refund",
+      "content_type": 28,
+      "codename": "add_refund"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 110,
+    "fields": {
+      "name": "Can change refund",
+      "content_type": 28,
+      "codename": "change_refund"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 111,
+    "fields": {
+      "name": "Can delete refund",
+      "content_type": 28,
+      "codename": "delete_refund"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 112,
+    "fields": {
+      "name": "Can view refund",
+      "content_type": 28,
+      "codename": "view_refund"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 113,
+    "fields": {
+      "name": "Can add receipt",
+      "content_type": 29,
+      "codename": "add_receipt"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 114,
+    "fields": {
+      "name": "Can change receipt",
+      "content_type": 29,
+      "codename": "change_receipt"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 115,
+    "fields": {
+      "name": "Can delete receipt",
+      "content_type": 29,
+      "codename": "delete_receipt"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 116,
+    "fields": {
+      "name": "Can view receipt",
+      "content_type": 29,
+      "codename": "view_receipt"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 117,
+    "fields": {
+      "name": "Can add transaction log",
+      "content_type": 30,
+      "codename": "add_transactionlog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 118,
+    "fields": {
+      "name": "Can change transaction log",
+      "content_type": 30,
+      "codename": "change_transactionlog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 119,
+    "fields": {
+      "name": "Can delete transaction log",
+      "content_type": 30,
+      "codename": "delete_transactionlog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 120,
+    "fields": {
+      "name": "Can view transaction log",
+      "content_type": 30,
+      "codename": "view_transactionlog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 121,
+    "fields": {
+      "name": "Can add expense category",
+      "content_type": 20,
+      "codename": "add_expensecategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 122,
+    "fields": {
+      "name": "Can change expense category",
+      "content_type": 20,
+      "codename": "change_expensecategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 123,
+    "fields": {
+      "name": "Can delete expense category",
+      "content_type": 20,
+      "codename": "delete_expensecategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 124,
+    "fields": {
+      "name": "Can view expense category",
+      "content_type": 20,
+      "codename": "view_expensecategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 125,
+    "fields": {
+      "name": "Can add blacklisted token",
+      "content_type": 31,
+      "codename": "add_blacklistedtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 126,
+    "fields": {
+      "name": "Can change blacklisted token",
+      "content_type": 31,
+      "codename": "change_blacklistedtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 127,
+    "fields": {
+      "name": "Can delete blacklisted token",
+      "content_type": 31,
+      "codename": "delete_blacklistedtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 128,
+    "fields": {
+      "name": "Can view blacklisted token",
+      "content_type": 31,
+      "codename": "view_blacklistedtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 129,
+    "fields": {
+      "name": "Can add outstanding token",
+      "content_type": 32,
+      "codename": "add_outstandingtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 130,
+    "fields": {
+      "name": "Can change outstanding token",
+      "content_type": 32,
+      "codename": "change_outstandingtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 131,
+    "fields": {
+      "name": "Can delete outstanding token",
+      "content_type": 32,
+      "codename": "delete_outstandingtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 132,
+    "fields": {
+      "name": "Can view outstanding token",
+      "content_type": 32,
+      "codename": "view_outstandingtoken"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "school",
+      "model": "organization"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "school",
+      "model": "school"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "users",
+      "model": "customuser"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "users",
+      "model": "hod"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "users",
+      "model": "parent"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "users",
+      "model": "schooladmin"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "users",
+      "model": "student"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "users",
+      "model": "staff"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+      "app_label": "housing",
+      "model": "studentaccommodation"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+      "app_label": "housing",
+      "model": "hostel"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+      "app_label": "housing",
+      "model": "maintenancerequest"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+      "app_label": "housing",
+      "model": "roomallocation"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+      "app_label": "housing",
+      "model": "room"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+      "app_label": "fees",
+      "model": "bankaccount"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+      "app_label": "fees",
+      "model": "expensecategory"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+      "app_label": "fees",
+      "model": "expense"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 22,
+    "fields": {
+      "app_label": "fees",
+      "model": "balance"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 23,
+    "fields": {
+      "app_label": "fees",
+      "model": "latefee"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 24,
+    "fields": {
+      "app_label": "fees",
+      "model": "discount"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 25,
+    "fields": {
+      "app_label": "fees",
+      "model": "feestructure"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 26,
+    "fields": {
+      "app_label": "fees",
+      "model": "payment"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 27,
+    "fields": {
+      "app_label": "fees",
+      "model": "invoice"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 28,
+    "fields": {
+      "app_label": "fees",
+      "model": "refund"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 29,
+    "fields": {
+      "app_label": "fees",
+      "model": "receipt"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 30,
+    "fields": {
+      "app_label": "fees",
+      "model": "transactionlog"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 31,
+    "fields": {
+      "app_label": "token_blacklist",
+      "model": "blacklistedtoken"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 32,
+    "fields": {
+      "app_label": "token_blacklist",
+      "model": "outstandingtoken"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "6p5fmlulucpo32az6vyz7tezadlujydo",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pABKYhL9z0Dmc4MUjU0Ke3KeHfbpAvd_vfef6uE61LS2mROI6urMur0uw1IT6k74AfW-6Rpqss8DnpX9EGb7ieW1-1w_w4KtrLVAMLIOVrrOHQk4CwCkUQPQQKDMd4TMG6eRzQZ0DuB6M8u244uRn2-7-w32w:1qokzF:ZeeXMdLX7dbRE4uHHZDIrJpCDBS9_py8y_LX7fuSA5I",
+      "expire_date": "2023-10-20T13:35:25.540Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "jti": "1e2c6e19e2bd442a8be571a9ca649a0c",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5NjY4NTYxNiwiaWF0IjoxNjk2NTk5MjE2LCJqdGkiOiIxZTJjNmUxOWUyYmQ0NDJhOGJlNTcxYTljYTY0OWEwYyIsInVzZXJfaWQiOjF9.rsPG5msjJEVJEmSz8miqhhSpdxn46hFFUQeprp39rDM",
+      "created_at": "2023-10-06T13:33:36.662Z",
+      "expires_at": "2023-10-07T13:33:36Z"
+    }
+  },
+  {
+    "model": "token_blacklist.blacklistedtoken",
+    "pk": 1,
+    "fields": {
+      "token": 1,
+      "blacklisted_at": "2023-10-06T13:34:44.543Z"
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$sQZSQHb9zh53j3OIHH8Q6l$XEQA9zI0I0zsPOEZMBfyX2T8gdzT3Rlg1ATCM9MGPNY=",
+      "last_login": "2023-10-06T13:35:25.512Z",
+      "is_superuser": true,
+      "first_name": "Jesse",
+      "last_name": "Zacharia",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-09-25T14:28:35.942Z",
+      "email": "jessefarouk@gmail.com",
+      "user_type": "1",
+      "gender": "M",
+      "profile_pic": "",
+      "address": "",
+      "fcm_token": "",
+      "created_at": "2023-09-25T14:28:37.491Z",
+      "updated_at": "2023-09-25T14:28:37.491Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$djtqqrMbSglHckdxX0B2O0$EdtgNit5h5sGA8jTRBraxzYjyuBBZ4o37pkfo0CfrAo=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Abigail",
+      "last_name": "Okyere-Addo",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-09-25T14:28:47.552Z",
+      "email": "abigail@gmail.com",
+      "user_type": "1",
+      "gender": "F",
+      "profile_pic": "WhatsApp_Image_2023-08-02_at_12.18.46_AM_kZ4X3Tk.jpeg",
+      "address": "next to big moses",
+      "fcm_token": "",
+      "created_at": "2023-09-25T14:28:47.557Z",
+      "updated_at": "2023-09-25T14:28:50.192Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$DxkehOoPSJV8075lzHI5i7$TSNecfbA2dDKD3YAJscd6Z2I2lYvMlFAvaM6nhiqXyw=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Prince",
+      "last_name": "Opoku",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-09-25T14:30:08.416Z",
+      "email": "prinzopoku@gmail.com",
+      "user_type": "1",
+      "gender": "M",
+      "profile_pic": "WhatsApp_Image_2023-08-02_at_12.18.49_AM_cs7Jokh.jpeg",
+      "address": "adenta comandos",
+      "fcm_token": "",
+      "created_at": "2023-09-25T14:30:08.418Z",
+      "updated_at": "2023-09-25T14:30:10.063Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$PSoDuvWWTK7XypylrXsco7$KYdNMMxI33pAlsbk4rvDKQ6q4uE6IUWFhDW1bqaEhdc=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Georgina",
+      "last_name": "Boateng",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-09-25T14:33:39.619Z",
+      "email": "gabvintage@gmail.com",
+      "user_type": "1",
+      "gender": "F",
+      "profile_pic": "WhatsApp_Image_2023-08-02_at_12.18.46_AM_dOAaasQ.jpeg",
+      "address": "Meagans House",
+      "fcm_token": "",
+      "created_at": "2023-09-25T14:33:39.621Z",
+      "updated_at": "2023-09-25T14:33:41.258Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$4NyI1OWLv3ADqgBA4h70zl$Ip50wxvb28bTnMlPrk10waF1XpibjrWh9mIc9UO/vUk=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Bright",
+      "last_name": "Essel",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-10-06T14:01:13.703Z",
+      "email": "kwasikakra105@gmail.com",
+      "user_type": "1",
+      "gender": "M",
+      "profile_pic": "WhatsApp_Image_2023-08-02_at_12.18.46_AM_aLvkvMX.jpeg",
+      "address": "Pepper Street Adenta",
+      "fcm_token": "",
+      "created_at": "2023-10-06T14:01:13.711Z",
+      "updated_at": "2023-10-06T14:01:15.582Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.schooladmin",
+    "pk": 2,
+    "fields": {
+      "primary_contact_number": "0243885187",
+      "secondary_contact_number": null
+    }
+  },
+  {
+    "model": "users.schooladmin",
+    "pk": 4,
+    "fields": {
+      "primary_contact_number": "0207707170",
+      "secondary_contact_number": null
+    }
+  },
+  {
+    "model": "fees.expensecategory",
+    "pk": 1,
+    "fields": {
+      "name": "School Feeding Program",
+      "description": "Government Initiative for affordable food for schools"
+    }
+  },
+  {
+    "model": "fees.expense",
+    "pk": 1,
+    "fields": {
+      "expense_date": "2023-10-13",
+      "description": "School Feeding Program",
+      "amount": "320000.89",
+      "category": 1
+    }
+  }
+]
